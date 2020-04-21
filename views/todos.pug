@@ -1,0 +1,10 @@
+html
+  head
+  body
+    form(method="GET", action="/todos")
+      input(name="q", type= 'text' value=q)
+      button Search
+        
+    ul
+      each item in list
+        li= item
